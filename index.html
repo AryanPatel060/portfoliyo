@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index1.css">
+    <script src="https://kit.fontawesome.com/4d10bf0564.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container1">
+            <nav>
+                <img src="img/aryan2-removebg-preview.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfoliyo">Portfoliyo</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul><i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="header-text">
+                <p>web devloper</p>
+                <h1>Hi, I'm <span>Aryan Patel</span><br>
+                    from Gandhinagar
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------about--------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/IMG_20221220_125107347_HDR.jpg" height="577px" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste doloremque, modi possimus tenetur
+                        itaque, eveniet beatae culpa delectus illum nobis iusto eum harum perferendis! Pariatur ad animi
+                        necessitatibus ullam tempore. Quia natus laboriosam, quam obcaecati sed fugiat odio iste tenetur
+                        minus hic dolore consequatur rerum quidem ea id ad nihil vero. Perspiciatis consectetur veniam
+                        tempora officiis aspernatur suscipit saepe itaque!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Devlopment</span> <br> Devlopment of web sites for comercial use</li>
+                            <li><span>App Devlopment</span> <br> Devlopment of application for different types of use
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="experience">
+                        <ul>
+                            <li><span>expireance</span> <br> Devlopment of web sites for comercial use</li>
+                            <li><span>App Devlopment</span> <br> Devlopment of application for different types of use
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="education">
+                        <ul>
+                            <li><span>education</span> <br> Devlopment of web sites for comercial use</li>
+                            <li><span>App Devlopment</span> <br> Devlopment of application for different types of use
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------services-------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Devlopment</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda recusandae enim ratione quo
+                        fugiat nihil ipsum dolorem ut aliquid nemo.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Devlopment</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda recusandae enim ratione quo
+                        fugiat nihil ipsum dolorem ut aliquid nemo.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-terminal"></i>
+                    <h2>Software Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda recusandae enim ratione quo
+                        fugiat nihil ipsum dolorem ut aliquid nemo.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------portfoliyo------------------ -->
+    <div id="portfoliyo">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/work-1.png" alt="...">
+                    <div class="layer">
+                        <h3>forum site</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus unde exercitationem
+                            aliquid rerum facere asperiores!</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work-2.png" alt="...">
+                    <div class="layer">
+                        <h3>forum site</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus unde exercitationem
+                            aliquid rerum facere asperiores!</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work-3.png" alt="...">
+                    <div class="layer">
+                        <h3>forum site</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus unde exercitationem
+                            aliquid rerum facere asperiores!</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- -------------------contect------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>aryanpatel19aug3@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>9714560206</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="" class="btn btn2" download>Downlode CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" action="">
+                        <input type="text" name="Name" id="name" placeholder="Your Name" required>
+                        <input type="Email" name="Email" id="email" placeholder="Your Email" required>
+                        <textarea name="Massage" id="Massage" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                   <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>copyright @ <span>AryanPatel</span></p>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
