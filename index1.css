@@ -16,6 +16,7 @@ body{
     height: 100vh;
     background-image: url(img/Picsart_23-01-22_15-25-02-479.jpg);
     /* background-size:contain; */
+    background-attachment: fixed;
     background-size: 1200px;
     background-position:top;
    
@@ -27,6 +28,13 @@ body{
 }
 .container{
     padding: 10px 10%;
+}
+nav .subtitle{
+    font-size: 30px;
+    font-weight:900;
+}
+nav .subtitle span{
+    color:#ff004f;
 }
 nav{
     display: flex;
@@ -318,6 +326,9 @@ form .btn2{
 .copyright span{
     color: #ff004f;
 }
+.copyright small {
+    opacity: 0.2;
+}
 
 /* --------------- css for small screeen---------------- */
 nav .fas{
@@ -414,7 +425,7 @@ nav .fas{
 }
 @media only screen and (max-width:355px){
     #header{
-        background-size: 100vw 60vh;
+        background-size: 100vw 50vh;
         height: 53vh;
     }
     .logo {
